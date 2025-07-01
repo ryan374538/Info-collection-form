@@ -70,6 +70,7 @@ form::before{
     position:absolute;
     width: 100%;
     max-width: 500px;
+    margin-top: -20px;
     aspect-ratio: 1/0.96;
     background-color: aquamarine;
     z-index: -1;
