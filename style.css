@@ -10,6 +10,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 30px;
+}
+.form{
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1/1;
 }
 
 form{
@@ -21,9 +27,10 @@ form{
     color: white;
     text-align: center;
     background-color: rgb(33, 33, 54);
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 20px;
     align-items: center;
+    position: relative;
 }
 .box{
     width: 100%;
@@ -62,8 +69,8 @@ form::before{
     content: '';
     position:absolute;
     width: 100%;
-    max-width: 378px;
-    aspect-ratio: 1/1.2;
+    max-width: 500px;
+    aspect-ratio: 1/0.96;
     background-color: aquamarine;
     z-index: -1;
     padding: 0px;
